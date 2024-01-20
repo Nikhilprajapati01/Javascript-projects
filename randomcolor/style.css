@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 20%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.box h2{
+    font-size: 2rem;
+}
+
+.box button{
+    padding: .6rem 1rem;
+    border-radius: 8px;
+    background-color: aquamarine;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+.box button:hover{
+    cursor: pointer;
+}
